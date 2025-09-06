@@ -1,0 +1,568 @@
+[
+  {
+    "__comment": "This is a comment and for Starters from 1-8 ",
+    "id": 1,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "name": "Tomato Soup",
+    "description": "A velvety blend of ripe tomatoes, slow-cooked with aromatic herbs, garlic, and a hint of butter, creating a comforting soup that is rich, tangy, and soul-warming.",
+    "image": "tomato_soup",
+    "category": { "id": 1, "name": "Soup" },
+    "dishType": "SOUP",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Tomatoes", "quantity": "200g" },
+      { "name": "Butter", "quantity": "20g" },
+      { "name": "Garlic", "quantity": "2 cloves" },
+      { "name": "Black Pepper", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 2,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "name": "Spring Rolls",
+    "description":  "Crispy golden rolls stuffed with seasoned vegetables and noodles, served hot with tangy chili sauce.",
+    "image": "spring_roll",
+    "category": { "id": 2, "name": "Snacks" },
+    "dishType": "SNACK",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Cabbage", "quantity": "50g" },
+      { "name": "Carrot", "quantity": "30g" },
+      { "name": "Spring Roll Sheet", "quantity": "4 pcs" },
+      { "name": "Oil", "quantity": "100ml" }
+    ]
+  },
+  {
+    "id": 3,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "name": "Chicken Tikka",
+    "description": "Grilled chicken marinated with yogurt and spices.",
+    "image": "Chicken_Tikka",
+    "category": { "id": 3, "name": "Grill" },
+    "dishType": "GRILL",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Chicken", "quantity": "200g" },
+      { "name": "Yogurt", "quantity": "50g" },
+      { "name": "Ginger Garlic Paste", "quantity": "1 tbsp" },
+      { "name": "Red Chili Powder", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 4,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "name": "Paneer Tikka",
+    "description": "Cubes of paneer marinated and grilled.",
+    "image": "paneer_tikka",
+    "category": { "id": 3, "name": "Grill"},
+    "dishType": "GRILL",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Paneer", "quantity": "150g" },
+      { "name": "Bell Peppers", "quantity": "50g" },
+      { "name": "Yogurt", "quantity": "40g" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 5,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "name": "Veg Manchurian",
+    "description": "Fried vegetable balls in tangy sauce.",
+    "image": "veg_manchurian",
+    "category": { "id": 4, "name": "Indo-Chinese" },
+    "dishType": "SNACK",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Cabbage", "quantity": "50g" },
+      { "name": "Carrot", "quantity": "30g" },
+      { "name": "Soy Sauce", "quantity": "1 tbsp" },
+      { "name": "Corn Flour", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 6,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "name": "Fish Fingers",
+    "description": "Crispy fried fish strips served with tartar sauce.",
+    "image": "Fish_Fingers",
+    "category": { "id": 5, "name": "Seafood" },
+    "dishType": "FRIED",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Fish Fillet", "quantity": "200g" },
+      { "name": "Bread Crumbs", "quantity": "50g" },
+      { "name": "Egg", "quantity": "1 pc" },
+      { "name": "Oil", "quantity": "100ml" }
+    ]
+  },
+  {
+    "id": 7,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "name": "Hara Bhara Kabab",
+    "description": "Spinach and peas kababs shallow fried.",
+    "image": "hara_bhara_kabab",
+    "category": { "id": 2, "name": "Snacks"},
+    "dishType": "SNACK",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Spinach", "quantity": "100g" },
+      { "name": "Green Peas", "quantity": "50g" },
+      { "name": "Potato", "quantity": "1 pc" },
+      { "name": "Spices", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 8,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "name": "Mutton Seekh Kebab",
+    "description": "Spiced minced mutton skewered and grilled.",
+    "image": "mutton_seekh_kabab",
+    "category": { "id": 3, "name": "Grill" },
+    "dishType": "GRILL",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Mutton Mince", "quantity": "200g" },
+      { "name": "Onion", "quantity": "50g" },
+      { "name": "Green Chili", "quantity": "2 pcs" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+
+  
+  {
+    "__comment": "This is a comment and for Main Course from 9-18 ",
+    "id": 9,
+    "mealType": "MAINCOURSE",
+    "type": "VEG",
+    "name": "Paneer Butter Masala",
+    "description": "Paneer cooked in creamy tomato-based gravy.",
+    "image": "paneer_butter_masala",
+    "category": { "id": 6, "name": "North Indian" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Paneer", "quantity": "200g" },
+      { "name": "Tomatoes", "quantity": "150g" },
+      { "name": "Cream", "quantity": "50ml" },
+      { "name": "Butter", "quantity": "20g" }
+    ]
+  },
+  {
+    "id": 10,
+    "mealType": "MAINCOURSE",
+    "type": "NON-VEG",
+    "name": "Butter Chicken",
+    "description": "Tender chicken pieces in buttery tomato gravy.",
+    "image": "butter_chicken",
+    "category": { "id": 6, "name": "North Indian"},
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Chicken", "quantity": "250g" },
+      { "name": "Tomatoes", "quantity": "150g" },
+      { "name": "Butter", "quantity": "25g" },
+      { "name": "Cream", "quantity": "40ml" }
+    ]
+  },
+  {
+    "id": 11,
+    "mealType": "MAINCOURSE",
+    "type": "VEG",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils in buttery gravy.",
+    "image": "dal_makhani",
+    "category": { "id": 6, "name": "North Indian" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Black Lentils", "quantity": "200g" },
+      { "name": "Kidney Beans", "quantity": "50g" },
+      { "name": "Butter", "quantity": "20g" },
+      { "name": "Cream", "quantity": "30ml" }
+    ]
+  },
+  {
+    "id": 12,
+    "mealType": "MAINCOURSE",
+    "type": "NON-VEG",
+    "name": "Chicken Biryani",
+    "description": "Aromatic rice layered with spiced chicken.",
+    "image": "chicken_biryani",
+    "category": { "id": 7, "name": "Mughlai" },
+    "dishType": "RICE",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Basmati Rice", "quantity": "200g" },
+      { "name": "Chicken", "quantity": "250g" },
+      { "name": "Yogurt", "quantity": "50g" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 13,
+    "mealType": "MAINCOURSE",
+    "type": "VEG",
+    "name": "Veg Biryani",
+    "description": "Aromatic rice with vegetables and spices.",
+    "image": "veg_biryani",
+    "category": { "id": 7, "name": "Mughlai" },
+    "dishType": "RICE",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Basmati Rice", "quantity": "200g" },
+      { "name": "Mixed Vegetables", "quantity": "150g" },
+      { "name": "Yogurt", "quantity": "50g" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 14,
+    "mealType": "MAINCOURSE",
+    "type": "NON-VEG",
+    "name": "Mutton Rogan Josh",
+    "description": "Kashmiri style lamb curry rich in spices.",
+    "image": "mutton_rogan_josh",
+    "category": { "id": 8, "name": "Kashmiri" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Mutton", "quantity": "250g" },
+      { "name": "Onions", "quantity": "100g" },
+      { "name": "Spices", "quantity": "2 tbsp" },
+      { "name": "Ghee", "quantity": "30g" }
+    ]
+  },
+  {
+    "id": 15,
+    "mealType": "MAINCOURSE",
+    "type": "VEG",
+    "name": "Chole Bhature",
+    "description": "Spiced chickpeas served with fried bread.",
+    "image": "chole_bhature",
+    "category": { "id": 6, "name": "North Indian" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": "200g" },
+      { "name": "Onion", "quantity": "50g" },
+      { "name": "Tomatoes", "quantity": "100g" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 16,
+    "mealType": "MAINCOURSE",
+    "type": "NON-VEG",
+    "name": "Fish Curry",
+    "description": "Tangy coastal style curry with fish.",
+    "image": "fish_curry",
+    "category": { "id": 5, "name": "Seafood" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Fish", "quantity": "200g" },
+      { "name": "Coconut Milk", "quantity": "100ml" },
+      { "name": "Tamarind", "quantity": "1 tbsp" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 17,
+    "mealType": "MAINCOURSE",
+    "type": "VEG",
+    "name": "Palak Paneer",
+    "description": "Paneer cooked with pureed spinach and spices.",
+    "image": "palak_paneer",
+    "category": { "id": 6, "name": "North Indian" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Spinach", "quantity": "200g" },
+      { "name": "Paneer", "quantity": "150g" },
+      { "name": "Garlic", "quantity": "3 cloves" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 18,
+    "mealType": "MAINCOURSE",
+    "type": "NON-VEG",
+    "name": "Prawn Masala",
+    "description": "Spicy prawns cooked with onion and tomato gravy.",
+    "image": "prawn_masala",
+    "category": { "id": 5, "name": "Seafood" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Prawns", "quantity": "200g" },
+      { "name": "Onion", "quantity": "50g" },
+      { "name": "Tomatoes", "quantity": "100g" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+
+  
+  {
+    "__comment": "This is a comment and for Desserts from 19-25 ",
+    "id": 19,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Gulab Jamun",
+    "description": "Soft fried milk balls soaked in sugar syrup.",
+    "image": "gulab_jamun",
+    "category": { "id": 9, "name": "Indian Sweet" },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Khoya", "quantity": "150g" },
+      { "name": "Flour", "quantity": "20g" },
+      { "name": "Sugar Syrup", "quantity": "100ml" },
+      { "name": "Cardamom", "quantity": "1 tsp" }
+    ]
+  },
+    {
+    "id": 20,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Rasgulla",
+    "description": "Soft spongy cheese balls soaked in light sugar syrup.",
+    "image": "rasgulla",
+    "category": { "id": 9, "name": "Indian Sweet" },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Chhena", "quantity": "200g" },
+      { "name": "Sugar Syrup", "quantity": "150ml" },
+      { "name": "Cardamom", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 21,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Kheer",
+    "description": "Creamy rice pudding flavored with cardamom and saffron.",
+    "image": "kheer",
+    "category": { "id": 9, "name": "Indian Sweet" },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Rice", "quantity": "50g" },
+      { "name": "Milk", "quantity": "500ml" },
+      { "name": "Sugar", "quantity": "60g" },
+      { "name": "Cardamom", "quantity": "1 tsp" },
+      { "name": "Saffron", "quantity": "a pinch" }
+    ]
+  },
+  {
+    "id": 22,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Jalebi",
+    "description": "Crispy spirals soaked in sugar syrup, hot and sweet.",
+    "image": "jalebi",
+    "category": { "id": 9, "name": "Indian Sweet"},
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Flour", "quantity": "100g" },
+      { "name": "Yogurt", "quantity": "50g" },
+      { "name": "Sugar Syrup", "quantity": "120ml" },
+      { "name": "Ghee", "quantity": "for frying" }
+    ]
+  },
+  {
+    "id": 23,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Sandesh",
+    "description": "Soft Bengali sweet made with fresh chhena and sugar.",
+    "image": "sandesh",
+    "category": { "id": 9, "name": "Indian Sweet" },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Chhena", "quantity": "200g" },
+      { "name": "Sugar", "quantity": "50g" },
+      { "name": "Cardamom", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 24,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Rabri",
+    "description": "Thickened sweetened milk with layers of cream and cardamom flavor.",
+    "image": "rabri_dessert",
+    "category": { "id": 9, "name": "Indian Sweet" },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Milk", "quantity": "500ml" },
+      { "name": "Sugar", "quantity": "80g" },
+      { "name": "Cardamom", "quantity": "1 tsp" },
+      { "name": "Saffron", "quantity": "a pinch" }
+    ]
+  },
+  {
+    "id": 25,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Gajar Halwa",
+    "description": "Carrot pudding cooked with milk, ghee, sugar, and garnished with nuts.",
+    "image": "gajar_halwa",
+    "category": { "id": 9, "name": "Indian Sweet" },
+    "dishType": "SWEET",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Carrots", "quantity": "250g" },
+      { "name": "Milk", "quantity": "200ml" },
+      { "name": "Sugar", "quantity": "50g" },
+      { "name": "Ghee", "quantity": "2 tbsp" },
+      { "name": "Cashews", "quantity": "10g" }
+    ]
+  },
+
+    {
+      "__comment": "This is a comment and for Sides from 26-30 ",
+    "id": 25,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "Plain Rice",
+    "description": "Steamed basmati rice served hot.",
+    "image": "plain_rice",
+    "category": { "id": 10, "name": "Sides" },
+    "dishType": "RICE",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Basmati Rice", "quantity": "200g" },
+      { "name": "Water", "quantity": "400ml" },
+      { "name": "Salt", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 26,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "Butter Naan",
+    "description": "Soft tandoori naan brushed with butter.",
+    "image": "butter_naan",
+    "category": { "id": 10, "name": "Sides" },
+    "dishType": "BREAD",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Flour", "quantity": "150g" },
+      { "name": "Yeast", "quantity": "1 tsp" },
+      { "name": "Butter", "quantity": "15g" },
+      { "name": "Salt", "quantity": "1 tsp" }
+    ]
+  },
+  {
+    "id": 27,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "Green Salad",
+    "description": "Fresh salad with cucumber, tomato, and onion.",
+    "image": "green_salad",
+    "category": { "id": 10, "name": "Sides" },
+    "dishType": "SALAD",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Cucumber", "quantity": "50g" },
+      { "name": "Tomato", "quantity": "50g" },
+      { "name": "Onion", "quantity": "30g" },
+      { "name": "Lemon Juice", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 28,
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "name": "Egg Curry",
+    "description": "Boiled eggs simmered in spiced gravy.",
+    "image": "egg_curry",
+    "category": { "id": 10, "name": "Sides" },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Eggs", "quantity": "2 pcs" },
+      { "name": "Onion", "quantity": "50g" },
+      { "name": "Tomato", "quantity": "50g" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 29,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "Papad",
+    "description": "Crispy roasted papad served as side.",
+    "image": "papad",
+    "category": { "id": 10, "name": "Sides" },
+    "dishType": "SNACK",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Papad", "quantity": "2 pcs" },
+      { "name": "Oil", "quantity": "Optional for frying" }
+    ]
+  },
+  {
+    "id": 30,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "Raita",
+    "description": "Curd-based side dish with cucumber and spices.",
+    "image": "raita",
+    "category": { "id": 10, "name": "Sides"},
+    "dishType": "CURD",
+    "forChefit": true,
+    "forParty": true,
+    "ingredients": [
+      { "name": "Yogurt", "quantity": "200g" },
+      { "name": "Cucumber", "quantity": "50g" },
+      { "name": "Cumin Powder", "quantity": "1 tsp" },
+      { "name": "Salt", "quantity": "1 tsp" }
+    ]
+  }
+
+
+]
