@@ -84,11 +84,11 @@ It allows users to browse dishes, view detailed ingredients, and manage their ca
 
 ## 📸 Screenshots  
 *(Add screenshots of your app here – e.g., Home Screen, Dish Details)*
-![Home Screen](./assets/screenshots/CategoryScreen.jpg)
-![Starter Screen](./assets/screenshots/Starter.jpg)
-![MainCourse Screen](./assets/screenshots/MainCourse.jpg)
-![Dessert Screen](./assets/screenshots/Dessert.jpg)
-![Side Dish Screen](./assets/screenshots/SidesDish.jpg)
+![Home Screen](./Assets/screenshots/CategoryScreen.jpg)
+![Starter Screen](./Assets/screenshots/Starter.jpg)
+![MainCourse Screen](./Assets/screenshots/MainCourse.jpg)
+![Dessert Screen](./Assets/screenshots/Dessert.jpg)
+![Side Dish Screen](./Assets/screenshots/SidesDish.jpg)
 
 ---
 
